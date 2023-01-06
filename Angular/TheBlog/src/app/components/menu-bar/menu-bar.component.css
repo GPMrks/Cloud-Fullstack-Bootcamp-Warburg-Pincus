@@ -1,0 +1,21 @@
+.menu-bar_container {
+    padding: 3.5rem 3rem 2rem 3.5rem;
+}
+
+.menu-bar_container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu-bar_container li {
+    list-style-type: none;
+    margin-right: 3rem;
+}
+
+.menu-bar_container a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #898989;
+}

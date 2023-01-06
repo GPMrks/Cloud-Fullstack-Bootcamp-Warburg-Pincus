@@ -1,0 +1,10 @@
+.page-not-found_container {
+    background-color: #121212;
+    height: 100%;
+    padding-bottom: 3rem;
+    height: 100vh;
+}
+
+button {
+    color: #121212;
+}

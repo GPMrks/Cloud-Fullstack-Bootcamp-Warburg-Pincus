@@ -1,0 +1,40 @@
+.big-card_container {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0rem 2rem;
+    padding: 1.5rem;
+}
+
+.big-card_container > a {
+    text-decoration: none;
+}
+
+.big-card_image > img {
+    width: 100%;
+}
+
+.big-card_date > p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    color: gray;
+    opacity: 0.5;
+}
+
+.big-card_title > h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+.big-card_description > p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: justify;
+    color: rgba(255,255,255,0.5);
+}
+

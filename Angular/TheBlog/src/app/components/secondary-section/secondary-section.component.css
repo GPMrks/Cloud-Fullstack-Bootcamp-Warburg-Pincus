@@ -1,0 +1,28 @@
+.section_container {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 4.5rem 4rem 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.subtitle {
+    color: #B8B8B8;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vertical_line {
+    height: 655px;
+    border-left: 1px solid black;
+    opacity: 0.1;
+    margin-top: 3rem;
+}

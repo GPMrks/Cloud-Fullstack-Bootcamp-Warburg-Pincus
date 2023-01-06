@@ -1,0 +1,13 @@
+<div class="vertical-card_container">
+  <a [routerLink]="['/content', id]">
+    <div class="vertical-card_image">
+      <img [src]="photoCover" alt="default image" />
+    </div>
+    <div class="vertical-card_date">
+      <p>{{ articleDate }}</p>
+    </div>
+    <div class="vertical-card_title">
+      <h1>{{ articleTitle }}</h1>
+    </div>
+  </a>
+</div>
